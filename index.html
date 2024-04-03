@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIND MAZE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+
+    <section class="sec">
+        <header class="head">
+            <a href=""><img src="image/Logo.jpg" class="logo"></a>
+            <ul class="firstnav">
+                <li class="hideonphone"><a href="#" class="home">Home</a></li>
+                <li class="hideonphone"><a href="price.html">Price</a></li>
+                <li class="hideonphone"><a href="connectus.html">Connect Us</a></li>
+                <li onclick="showsidebar()"><span class="material-symbols-outlined">
+                    menu
+                    </span></li>
+            </ul>
+            <ul class="sidebar">
+                <li onclick="hidesidebar()"><span class="material-symbols-outlined">
+                    close
+                    </span></li>
+                <li><a href="#" class="home">Home</a></li>
+                <li><a href="price.html">Price</a></li>
+                <li><a href="connectus.html">Connect Us</a></li>
+                
+            </ul>
+        </header>
+        <div class="contant">
+            <div class="textbox" class="hideonphone">
+                <h2 id="title"> Mind Maze <span>House of Evil </span></h2>
+                <p id="paragraph">
+                  </p>
+            </div>
+            <div class="imgs" class="hideonphone">
+                <img src="image/11.png" alt="" class="sp1">
+            </div>
+        </div>
+        <div class="box">
+            <ul class="thumb" class="hideonphone">
+                <li>
+                    <img src="image/1.png"
+                        onclick="imgslid('image/1.png'); changecolor('black');changetext()">
+                </li>
+                <li>
+                    <img src="image/2.png " onclick="imgslid('image/2.png'); changecolor(' rgba(0, 0, 0, 655)');changetextt()">
+                </li>
+                <li>
+                    <img src="image/3.png" onclick="imgslid('image/3.png'); changecolor(' rgba(0, 0, 0, 455)');changetexttt()">
+                </li>
+            </ul>
+        </div>
+        <ul class="iaa">
+            <a href="https://www.facebook.com/mindmazeegypt?mibextid=LQQJ4d
+            " class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/mindmaze_egypt/" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-youtube"></a>
+        </ul>
+
+    </section>
+    <script src="javas.js"></script>
+</body>
+
+</html> 
